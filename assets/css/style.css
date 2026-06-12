@@ -19184,4 +19184,7 @@ td.remove button span {
     width: 100%;
     height: auto;
   }
+  .container-fluid{
+    padding: 10px !important;
+  }
 }

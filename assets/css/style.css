@@ -364,7 +364,7 @@ body {
 }
 
 .section.section-padding {
-  padding: 80px 0 70px;
+  padding: 50px 0 50px;
 }
 
 .section.shape-after::after {
@@ -4370,6 +4370,17 @@ hr {
 .sigma_info.style-25 {
   padding: 0;
   box-shadow: none;
+}
+
+@media (max-width: 1199px) {
+  .sigma_info.style-25 {
+    display: flex !important;
+    align-items: center;
+    text-align: left;
+  }
+  .sigma_info.style-25 .sigma_info-description {
+    margin-top: 0 !important;
+  }
 }
 
 .sigma_info.style-25 .sigma_info-title {
@@ -19126,6 +19137,20 @@ td.remove button span {
   padding-right: 5px;
 }
 
+.packagee-padd{
+    padding: 30px 0px 70px !important;
+
+  }
+
+.we-offer-padding{
+  padding-bottom: 40px !important;
+}
+
+.things-we-do-padding{
+  padding-top: 50px !important;
+  padding-bottom: 40px !important;
+}
+
 @media(max-width:500px){
   h2{
     font-size: 25px;
@@ -19154,5 +19179,9 @@ td.remove button span {
   }
   footer p{
     text-align: center;
+  }
+  .sigma_about.style-9 .sigma_about-image img{
+    width: 100%;
+    height: auto;
   }
 }
